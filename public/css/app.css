@@ -1,0 +1,214 @@
+body,div {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Roboto; /* Имя шрифта */
+    src: url(../font/roboto.ttf); /* Путь к файлу со шрифтом */
+}
+
+.main{
+    background: url("../image/fon.png")100% 100% no-repeat;
+    background-size: cover; /* Масштабируем фон */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.content{
+    background: white;
+    margin: auto;
+    width: 70%;
+
+}
+
+.content-p{
+    white-space: nowrap;
+    height: 15%;
+}
+
+#title{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    text-decoration: underline;
+    line-height: 21px;
+    display: inline-block;
+}
+
+#title-second{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+#title-top{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+.content-table{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+}
+
+#title-table{
+    background: #BDBDBD;
+}
+
+/* START CSS VARIABLES */
+:root {
+    --body-background: #1c223b;
+    --body-text: #ffffff;
+    --container-background: #273349;
+    --table-background: #FFFFFF;
+    --table-background-hover: #151b31;
+    --table-text: #e2e2e2;
+    --priority-200: #d6a13f;
+    --priority-300: #4480e7;
+    --priority-600: #40c587;
+    --delete-background: #242c4c;
+    --delete-color: #909090;
+    --delete-hover: #ff0000;
+}
+
+
+h1 {
+    text-align: center;
+    margin: -2.5rem 0 0.625rem 0;
+}
+/* END CSS RESET + COMMON STYLES */
+
+
+/* START OUTER CONTAINER STYLES */
+.outer-container {
+    background-color: var(--container-background);
+    border-radius: 0.625rem;
+    box-shadow: 0 5px 10px rgba(12,16,31,0.4);
+    padding: 6.25rem;
+    margin: auto;
+    width: 90%;
+    max-width: 62.5rem;
+}
+
+/* Start Table Styles */
+table {
+    color: var(--table-text);
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    width: 100%;
+}
+
+table thead{
+    background: #BDBDBD;
+}
+
+table th {
+    font-size: 1rem;
+
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+table th, table td {
+    padding: 0.9375rem;
+    display: inline-block;
+    text-align: left;
+}
+
+table thead th{
+    color: black;
+}
+
+#rigth{
+    float: right;
+}
+
+#ic_image{
+    width: 37px;
+    height: 37px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #C4C4C4;
+    display: inline-block;
+    vertical-align: center;
+}
+
+table tbody tr {
+    background-color: var(--table-background);
+    white-space: nowrap;
+}
+
+table tbody tr td{
+    position: relative;
+    vertical-align: middle;
+    color: #000;
+}
+
+.one{
+    right: 20px;
+}
+
+.two{
+    right: 120px;
+}
+
+.three{
+    right: 150px;
+}
+
+#th_name{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    transform: translateY(-50%);
+    vertical-align: middle;
+    margin: 0 auto;
+    left: 70px;
+}
+
+#raiting{
+    float: right;
+    vertical-align: middle;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.profile{
+    width: 48px;
+    height: 48px;
+    background: white;
+    border-color: #636b6f;
+    border-radius: 2px;
+    border-bottom: 1px solid #636b6f;
+    border-top: 1px solid #636b6f;
+    border-left: 1px solid #636b6f;
+    border-right: 1px solid #636b6f;
+}
